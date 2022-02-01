@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>200</x>
+      <y>0</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Статус</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>200</x>
+      <y>70</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Одержувач</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>440</x>
+      <y>20</y>
+      <w>100</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Повідомлення</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>700</x>
+      <y>40</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Відправник</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>290</x>
+      <y>20</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>m2=Характеризується</panel_attributes>
+    <additional_attributes>10.0;10.0;150.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>530</x>
+      <y>30</y>
+      <w>190</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>надсилається</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>200</x>
+      <y>310</y>
+      <w>90</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Одержувач
+--
+ID
+--
+Прізвище
+Ім'я
+По-батькові</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>200</x>
+      <y>160</y>
+      <w>90</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Статус
+--
+ID
+--
+статус</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>440</x>
+      <y>250</y>
+      <w>110</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Повідомлення
+--
+ID
+--
+Статус
+Одержувач
+Відправник
+Вміст</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>710</x>
+      <y>250</y>
+      <w>90</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Відправник
+--
+ID
+--
+Прізвище
+Ім'я
+По-батькові</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>290</x>
+      <y>60</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;150.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>280</x>
+      <y>250</y>
+      <w>180</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>m2=Характеризується</panel_attributes>
+    <additional_attributes>10.0;10.0;160.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>540</x>
+      <y>290</y>
+      <w>190</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>надсилається</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>750</x>
+      <y>560</y>
+      <w>160</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Відправник
+--
+ID: LONG
+--
+Прізвище: TEXT(20)
+Ім'я: TEXT(20)
+По-батькові: TEXT(20)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>620</x>
+      <y>600</y>
+      <w>150</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>надсилається</panel_attributes>
+    <additional_attributes>10.0;20.0;130.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>440</x>
+      <y>560</y>
+      <w>190</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Повідомлення
+--
+ID
+--
+Статус: LONG
+Одержувач: LONG
+Відправник: LONG
+Вміст: LONG TEXT(1000)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>280</x>
+      <y>560</y>
+      <w>180</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>m2=Характеризується</panel_attributes>
+    <additional_attributes>10.0;10.0;160.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>280</x>
+      <y>610</y>
+      <w>180</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;160.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>130</x>
+      <y>470</y>
+      <w>160</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Статус
+--
+ID: LONG
+--
+статус: CHAR(20)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>130</x>
+      <y>620</y>
+      <w>160</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Одержувач
+--
+ID: LONG
+--
+Прізвище: TEXT(20)
+Ім'я: TEXT(20)
+По-батькові: TEXT(20)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>280</x>
+      <y>300</y>
+      <w>180</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;160.0;20.0</additional_attributes>
+  </element>
+</diagram>
